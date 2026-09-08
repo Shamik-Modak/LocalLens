@@ -15,7 +15,7 @@ body{
 }
 
 .fa-compass{
-    color: #fe424d;
+    color: #10B981;
     font-size: 2 rem;
 }
 
@@ -89,12 +89,12 @@ body{
 }
 
 .add-btn{
-    background-color:#fe424d !important;
+    background-color:#10B981 !important;
     border: none !important;
 }
 
 .edit-btn{
-    background-color:#fe424d !important;
+    background-color:#10B981 !important;
     border: none !important;
 }
 
@@ -132,7 +132,7 @@ body{
 
 /* Change style when checked */
 .btn-check:checked + .chip-label {
-  background-color: #fe424d; /* Theme color */
+  background-color: #10B981; /* Theme color */
   color: white;
-  border-color: #fe424d;
+  border-color: #10B981;
 }

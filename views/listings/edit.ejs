@@ -2,7 +2,7 @@
 <div class="row mt-3">
 <div class="col-8 offset-2">
 
-    <h3>Edit your Listing</h3>
+    <h3>Edit your Spots</h3>
     <form method="POST" action="/listings/<%=listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
         <div class="mb-3">
             <lable for="title" class="form-label">Title</lable>
@@ -23,7 +23,7 @@
         <br><br>
 
         <div class="mb-3">
-            Original Listing Image <br>
+            Original Spot Image <br>
             <img src="<%= orgImgUrl %>">
 
         </div>
@@ -36,7 +36,7 @@
         <br><br>
         <div class="row">
             <div class="mb-3 col-md-4">
-            <lable for="price" class="form-label">Price</lable>
+            <lable for="price" class="form-label">Time to visit</lable>
             <input name="listing[price]" class="form-control" value="<%=listing.price %>" placeholder="enter price" type="number" required>
         <div class="invalid-feedback">Please Enter the price</div>
         </div>

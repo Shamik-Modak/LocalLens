@@ -14,7 +14,7 @@ module.exports.signup=async (req, res, next) => {
       if(err){
         return next(err);
       }
-      req.flash("success", "Welcome to WanderLust!");
+      req.flash("success", "Welcome to LocalLens!");
       res.redirect("/listings");
     })
     // console.log(regUser);
@@ -30,7 +30,7 @@ module.exports.renderLogin=(req, res) => {
 }
 
 module.exports.login=async (req, res) => {
-    req.flash("success","Welcome back to WanderLust! You are logged in!")
+    req.flash("success","Welcome back to LocalLens! You are logged in!")
     const redirectUrl=res.locals.redirectUrl || "/listings";
     res.redirect(redirectUrl);
   }
